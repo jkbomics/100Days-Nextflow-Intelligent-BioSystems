@@ -16,7 +16,7 @@ process GREETING {
     script:
     """
     echo "Hello Nextflow — Day 1 of 100"
-    echo "Workflow execution time: $(date)"
+    echo "Workflow execution time: \$(date +%Y-%m-%d_%H:%M:%S)"
     """
 }
 
