@@ -62,6 +62,8 @@ Phase 4 — Silicon Lifecycle Integration (Days 76–100)
 4.Online learning workflows
 
 ## Repository Structure
+
+```
 100Days-Nextflow-Intelligent-BioSystems/
 │
 ├── phase1_foundations/
@@ -90,6 +92,7 @@ Phase 4 — Silicon Lifecycle Integration (Days 76–100)
 ├── test_data/
 ├── diagrams/
 └── docs/
+```
 
 ## Technical Stack
 
