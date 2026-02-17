@@ -189,13 +189,15 @@ nextflow run phase1_foundations/day01_workflow_basics/main.nf
 Run Day 02 Example
 nextflow run phase1_foundations/day02_channels/main.nf
 
-## Progress
+## Progress Tracker
 
-- [x] Day 01 – Workflow fundamentals
-- [x] Day 02 – Channels as signal propagation
-- [ ] Day 03 – Process isolation
-...
-- [ ] Day 100 – Adaptive silicon-sensing workflow
+- [x] Day 01 – Workflow fundamentals  
+- [x] Day 02 – Channels as signal propagation  
+- [ ] Day 03 – Process isolation & modular abstraction  
+- [ ] Day 04 – Channel operators  
+- [ ] Day 05 – Parallel execution  
+- [ ] ...  
+- [ ] Day 100 – Adaptive silicon-sensing workflow  
 
 ## Long-Term Objective
 This initiative aims to demonstrate how reproducible bioinformatics pipelines can evolve into intelligent, adaptive systems inspired by biological and silicon architectures.
