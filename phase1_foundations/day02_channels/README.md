@@ -101,8 +101,6 @@ This design enables scalability and parallelism.
 
 ## How to Run
 
-```
-bash
+```bash
 nextflow run main.nf
-
 ```
