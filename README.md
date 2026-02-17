@@ -188,6 +188,7 @@ nextflow run phase1_foundations/day01_workflow_basics/main.nf
 
 Run Day 02 Example
 nextflow run phase1_foundations/day02_channels/main.nf
+```
 
 ## Progress Tracker
 
