@@ -7,20 +7,28 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ---
 
-## 🔄 Latest Progress
+## Latest Progress
 
 **Day 01 — Workflow Fundamentals**
 - Implemented minimal DSL2 workflow
 - Established execution configuration
 - Enabled reporting (timeline, trace, report)
-- Defined process orchestration structure
 
 **Day 02 — Channels as Signal Propagation**
 - Implemented file-based channel using `Channel.fromPath`
-- Connected two processes via stream chaining
-- Demonstrated data transformation through pipeline stages
-- Explored Groovy vs Bash interpolation boundaries
+- Connected processes via stream chaining
 - Modeled channels as biological signaling cascades
+
+**Day 03 — Process Isolation & Modular Design**
+- Designed single-responsibility processes
+- Chained multiple modular steps
+- Reinforced enzyme-like computational abstraction
+
+**Day 04 — Channel Branching & Parallel Signal Amplification**
+- Implemented channel branching
+- Triggered multiple downstream processes from one signal
+- Demonstrated implicit parallel execution
+- Modeled signal amplification similar to biological cascades
 
 ---
 
@@ -194,7 +202,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 
 - [x] Day 01 – Workflow fundamentals  
 - [x] Day 02 – Channels as signal propagation  
-- [ ] Day 03 – Process isolation & modular abstraction  
+- [X] Day 03 – Process isolation & modular abstraction  
 - [ ] Day 04 – Channel operators  
 - [ ] Day 05 – Parallel execution  
 - [ ] ...  
