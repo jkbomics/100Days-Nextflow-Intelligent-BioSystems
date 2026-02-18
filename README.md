@@ -24,12 +24,6 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Chained multiple modular steps
 - Reinforced enzyme-like computational abstraction
 
-**Day 04 — Channel Branching & Parallel Signal Amplification**
-- Implemented channel branching
-- Triggered multiple downstream processes from one signal
-- Demonstrated implicit parallel execution
-- Modeled signal amplification similar to biological cascades
-
 ---
 
 ## Vision
