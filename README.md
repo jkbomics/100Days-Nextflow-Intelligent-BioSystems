@@ -24,6 +24,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Chained multiple modular steps
 - Reinforced enzyme-like computational abstraction
 
+**Day 04 — Channel Branching & Parallel Signal Amplification**
+- Implemented channel branching in DSL2
+- Triggered multiple downstream processes from one signal
+- Demonstrated implicit parallel execution
+- Corrected file path resolution using `projectDir`
+- Modeled biological signal amplification architecture
+
 ---
 
 ## Vision
@@ -197,7 +204,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [x] Day 01 – Workflow fundamentals  
 - [x] Day 02 – Channels as signal propagation  
 - [X] Day 03 – Process isolation & modular abstraction  
-- [ ] Day 04 – Channel operators  
+- [X] Day 04 – Channel operators  
 - [ ] Day 05 – Parallel execution  
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
