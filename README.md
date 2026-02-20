@@ -31,6 +31,12 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Corrected file path resolution using `projectDir`
 - Modeled biological signal amplification architecture
 
+**Day 05 — Channel Operators & Signal Filtering**
+- Applied `map` to structure raw data into tuples
+- Used `filter` for threshold-based selection
+- Simulated biological signal activation logic
+- Modeled gene expression thresholding as computational filtering
+
 ---
 
 ## Vision
@@ -205,7 +211,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [x] Day 02 – Channels as signal propagation  
 - [X] Day 03 – Process isolation & modular abstraction  
 - [X] Day 04 – Channel operators  
-- [ ] Day 05 – Parallel execution  
+- [X] Day 05 – Parallel execution  
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
