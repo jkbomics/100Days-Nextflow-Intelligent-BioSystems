@@ -37,6 +37,12 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Simulated biological signal activation logic
 - Modeled gene expression thresholding as computational filtering
 
+**Day 06 — Parameterization & Dynamic Thresholds**
+- Replaced hardcoded filtering logic with `params.threshold`
+- Enabled runtime configuration via command-line arguments
+- Introduced dynamic pipeline behavior
+- Strengthened separation between logic and configuration
+
 ---
 
 ## Vision
@@ -211,7 +217,10 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [x] Day 02 – Channels as signal propagation  
 - [X] Day 03 – Process isolation & modular abstraction  
 - [X] Day 04 – Channel operators  
-- [X] Day 05 – Parallel execution  
+- [X] Day 05 – Parallel execution
+- [X] Day 06 – Parameterization & dynamic thresholds  
+- [ ] Day 07 – Container integration  
+- [ ] Day 08 – Resource configuration & scaling  
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
