@@ -43,6 +43,12 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Introduced dynamic pipeline behavior
 - Strengthened separation between logic and configuration
 
+**Day 07 — Container Integration & Environment Reproducibility**
+- Enabled Docker execution in `nextflow.config`
+- Added `container` directive to process definition
+- Executed pipeline inside controlled Ubuntu environment
+- Established environment-level reproducibility
+
 ---
 
 ## Vision
@@ -219,7 +225,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 04 – Channel operators  
 - [X] Day 05 – Parallel execution
 - [X] Day 06 – Parameterization & dynamic thresholds  
-- [ ] Day 07 – Container integration  
+- [X] Day 07 – Container integration  
 - [ ] Day 08 – Resource configuration & scaling  
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
