@@ -49,6 +49,12 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Executed pipeline inside controlled Ubuntu environment
 - Established environment-level reproducibility
 
+**Day 08 — Resource Configuration & Scaling**
+- Introduced process labels for resource grouping
+- Configured CPU, memory, and time in `nextflow.config`
+- Separated computational resource allocation from workflow logic
+- Prepared pipeline for HPC/cloud scalability
+
 ---
 
 ## Vision
@@ -226,7 +232,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 05 – Parallel execution
 - [X] Day 06 – Parameterization & dynamic thresholds  
 - [X] Day 07 – Container integration  
-- [ ] Day 08 – Resource configuration & scaling  
+- [X] Day 08 – Resource configuration & scaling  
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
