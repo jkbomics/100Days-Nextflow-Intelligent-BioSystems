@@ -232,7 +232,9 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 05 – Parallel execution
 - [X] Day 06 – Parameterization & dynamic thresholds  
 - [X] Day 07 – Container integration  
-- [X] Day 08 – Resource configuration & scaling  
+- [X] Day 08 – Resource configuration & scaling
+- [ ] Day 09 – Modular workflow composition  
+- [ ] Day 10 – Execution reports & monitoring 
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
