@@ -55,6 +55,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Separated computational resource allocation from workflow logic
 - Prepared pipeline for HPC/cloud scalability
 
+**Day 09 — Modular Workflow Composition (DSL2 Modules)**
+- Refactored process logic into reusable module (`modules/filter_genes.nf`)
+- Imported module using `include` statement
+- Passed parameters explicitly between workflow and module
+- Maintained separation of logic, resources, and orchestration
+- Implemented production-style DSL2 architecture
+
 ---
 
 ## Vision
@@ -233,7 +240,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 06 – Parameterization & dynamic thresholds  
 - [X] Day 07 – Container integration  
 - [X] Day 08 – Resource configuration & scaling
-- [ ] Day 09 – Modular workflow composition  
+- [X] Day 09 – Modular workflow composition  
 - [ ] Day 10 – Execution reports & monitoring 
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
