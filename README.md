@@ -62,6 +62,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Maintained separation of logic, resources, and orchestration
 - Implemented production-style DSL2 architecture
 
+**Day 10 — Execution Reports & Workflow Monitoring**
+- Enabled timeline report generation (`timeline.html`)
+- Generated execution performance report (`execution_report.html`)
+- Activated task-level trace logging (`trace.txt`)
+- Produced DAG visualization (`dag.png`)
+- Introduced workflow observability and performance insight
+
 ---
 
 ## Vision
@@ -241,7 +248,9 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 07 – Container integration  
 - [X] Day 08 – Resource configuration & scaling
 - [X] Day 09 – Modular workflow composition  
-- [ ] Day 10 – Execution reports & monitoring 
+- [X] Day 10 – Execution reports & monitoring
+- [ ] Day 11 – Parallel multi-sample execution  
+- [ ] Day 12 – Channel operators (advanced)
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
