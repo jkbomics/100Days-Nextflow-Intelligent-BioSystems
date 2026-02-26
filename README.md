@@ -69,6 +69,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Produced DAG visualization (`dag.png`)
 - Introduced workflow observability and performance insight
 
+**Day 11 — Parallel Multi-Sample Execution (Scatter Processing)**
+- Emitted multiple input files using wildcard pattern (`sample*.txt`)
+- Enabled automatic scatter execution across samples
+- Triggered independent process runs per input file
+- Demonstrated implicit parallelism via dataflow design
+- Simulated RNA-seq style multi-sample processing
+
 ---
 
 ## Vision
@@ -249,8 +256,9 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 08 – Resource configuration & scaling
 - [X] Day 09 – Modular workflow composition  
 - [X] Day 10 – Execution reports & monitoring
-- [ ] Day 11 – Parallel multi-sample execution  
-- [ ] Day 12 – Channel operators (advanced)
+- [X] Day 11 – Parallel multi-sample execution  
+- [ ] Day 12 – Gather & aggregation (scatter → gather pattern)  
+- [ ] Day 13 – Channel operators (advanced transformations)
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
