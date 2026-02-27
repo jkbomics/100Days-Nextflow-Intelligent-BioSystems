@@ -76,6 +76,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Demonstrated implicit parallelism via dataflow design
 - Simulated RNA-seq style multi-sample processing
 
+**Day 12 — Scatter → Gather Aggregation Pattern**
+- Implemented parallel multi-sample processing (scatter stage)
+- Collected outputs using `collect()` operator
+- Introduced result aggregation module (`SUMMARIZE_RESULTS`)
+- Demonstrated convergence of parallel tasks into unified summary
+- Modeled RNA-Seq style multi-sample result integration
+
 ---
 
 ## Vision
@@ -257,8 +264,9 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 09 – Modular workflow composition  
 - [X] Day 10 – Execution reports & monitoring
 - [X] Day 11 – Parallel multi-sample execution  
-- [ ] Day 12 – Gather & aggregation (scatter → gather pattern)  
-- [ ] Day 13 – Channel operators (advanced transformations)
+- [X] Day 12 – Gather & aggregation (scatter → gather pattern)  
+- [ ] Day 13 – Advanced channel operators  
+- [ ] Day 14 – Metadata-driven workflows
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
