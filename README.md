@@ -83,6 +83,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Demonstrated convergence of parallel tasks into unified summary
 - Modeled RNA-Seq style multi-sample result integration
 
+**Day 13 — Advanced Channel Operators & Metadata Grouping**
+- Attached metadata to input files using `map()`
+- Implemented condition-based tagging (tumor vs control)
+- Applied `groupTuple()` to group samples by biological condition
+- Introduced metadata-aware workflow structuring
+- Laid groundwork for differential and cohort-based analysis
+  
 ---
 
 ## Vision
@@ -265,7 +272,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 10 – Execution reports & monitoring
 - [X] Day 11 – Parallel multi-sample execution  
 - [X] Day 12 – Gather & aggregation (scatter → gather pattern)  
-- [ ] Day 13 – Advanced channel operators  
+- [X] Day 13 – Advanced channel operators  
 - [ ] Day 14 – Metadata-driven workflows
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
