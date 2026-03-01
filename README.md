@@ -89,7 +89,14 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Applied `groupTuple()` to group samples by biological condition
 - Introduced metadata-aware workflow structuring
 - Laid groundwork for differential and cohort-based analysis
-  
+
+**Day 14 — Conditional Execution Based on Metadata**
+- Implemented metadata-driven branching (tumor vs control)
+- Filtered channels using condition-based logic
+- Triggered separate modular processes per group
+- Demonstrated context-aware workflow execution
+- Modeled signal-dependent pathway activation
+
 ---
 
 ## Vision
@@ -273,7 +280,9 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 11 – Parallel multi-sample execution  
 - [X] Day 12 – Gather & aggregation (scatter → gather pattern)  
 - [X] Day 13 – Advanced channel operators  
-- [ ] Day 14 – Metadata-driven workflows
+- [X] Day 14 – Metadata-driven workflows
+- [ ] Day 15 – Multi-level aggregation (group + global summary)  
+- [ ] Day 16 – Metadata-driven differential logic
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
