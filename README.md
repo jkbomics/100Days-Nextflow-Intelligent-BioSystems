@@ -97,6 +97,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Demonstrated context-aware workflow execution
 - Modeled signal-dependent pathway activation
 
+**Day 15 — Multi-Level Aggregation (Group + Global Integration)**
+- Implemented hierarchical aggregation pattern
+- Generated per-condition summaries using `groupTuple()`
+- Applied global aggregation using `collect()`
+- Modeled scatter → group summary → global convergence
+- Simulated RNA-Seq style differential backbone structure
+
 ---
 
 ## Vision
@@ -281,8 +288,9 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 12 – Gather & aggregation (scatter → gather pattern)  
 - [X] Day 13 – Advanced channel operators  
 - [X] Day 14 – Metadata-driven workflows
-- [ ] Day 15 – Multi-level aggregation (group + global summary)  
-- [ ] Day 16 – Metadata-driven differential logic
+- [X] Day 15 – Multi-level aggregation (group + global summary)  
+- [ ] Day 16 – Simulated differential analysis logic  
+- [ ] Day 17 – Metadata-driven parameter routing
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
