@@ -104,6 +104,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Modeled scatter → group summary → global convergence
 - Simulated RNA-Seq style differential backbone structure
 
+**Day 16 — Simulated Differential Comparison Logic**
+- Implemented structured comparison between tumor and control groups
+- Generated per-group gene counts after filtering
+- Extracted numeric summaries for contrast analysis
+- Introduced comparison module to compute group differences
+- Simulated architectural backbone of differential expression workflows
+
 ---
 
 ## Vision
@@ -289,8 +296,9 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 13 – Advanced channel operators  
 - [X] Day 14 – Metadata-driven workflows
 - [X] Day 15 – Multi-level aggregation (group + global summary)  
-- [ ] Day 16 – Simulated differential analysis logic  
-- [ ] Day 17 – Metadata-driven parameter routing
+- [X] Day 16 – Simulated differential analysis logic  
+- [ ] Day 17 – Metadata-driven adaptive parameter routing  
+- [ ] Day 18 – Condition-aware dynamic branching
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
