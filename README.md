@@ -111,6 +111,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Introduced comparison module to compute group differences
 - Simulated architectural backbone of differential expression workflows
 
+**Day 17 — Adaptive Parameter Routing (Metadata-Driven Workflows)**
+- Implemented metadata-driven parameter routing
+- Assigned dynamic thresholds based on sample condition (tumor vs control)
+- Passed adaptive parameters through workflow tuples
+- Enabled context-aware filtering logic
+- Introduced adaptive workflow behavior inspired by biological signal sensitivity
+
 ---
 
 ## Vision
@@ -297,8 +304,9 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 14 – Metadata-driven workflows
 - [X] Day 15 – Multi-level aggregation (group + global summary)  
 - [X] Day 16 – Simulated differential analysis logic  
-- [ ] Day 17 – Metadata-driven adaptive parameter routing  
-- [ ] Day 18 – Condition-aware dynamic branching
+- [X] Day 17 – Metadata-driven adaptive parameter routing  
+- [ ] Day 18 – Dynamic workflow branching  
+- [ ] Day 19 – Metadata-driven pipeline orchestration
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
