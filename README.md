@@ -118,6 +118,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Enabled context-aware filtering logic
 - Introduced adaptive workflow behavior inspired by biological signal sensitivity
 
+**Day 18 — Dynamic Workflow Branching**
+- Implemented metadata-driven dynamic workflow branching
+- Routed samples to different analysis modules automatically
+- Enabled context-based module selection (tumor vs control)
+- Demonstrated dynamic orchestration using channel filtering
+- Modeled signal-driven pathway activation in workflow systems
+
 ---
 
 ## Vision
@@ -305,8 +312,9 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 15 – Multi-level aggregation (group + global summary)  
 - [X] Day 16 – Simulated differential analysis logic  
 - [X] Day 17 – Metadata-driven adaptive parameter routing  
-- [ ] Day 18 – Dynamic workflow branching  
-- [ ] Day 19 – Metadata-driven pipeline orchestration
+- [X] Day 18 – Dynamic workflow branching  
+- [ ] Day 19 – Metadata-driven pipeline orchestration  
+- [ ] Day 20 – Intelligent workflow architecture
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
