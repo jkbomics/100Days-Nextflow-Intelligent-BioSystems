@@ -125,6 +125,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Demonstrated dynamic orchestration using channel filtering
 - Modeled signal-driven pathway activation in workflow systems
 
+**Day 19 — Metadata-Driven Pipeline Orchestration**
+- Implemented multi-layer workflow orchestration driven by sample metadata
+- Added universal QC module executed for all samples
+- Routed samples to condition-specific analysis modules (tumor vs control)
+- Combined adaptive parameters, metadata tagging, and dynamic module selection
+- Simulated orchestration architecture used in production bioinformatics pipelines
+
 ---
 
 ## Vision
@@ -313,8 +320,9 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 16 – Simulated differential analysis logic  
 - [X] Day 17 – Metadata-driven adaptive parameter routing  
 - [X] Day 18 – Dynamic workflow branching  
-- [ ] Day 19 – Metadata-driven pipeline orchestration  
-- [ ] Day 20 – Intelligent workflow architecture
+- [X] Day 19 – Metadata-driven pipeline orchestration  
+- [ ] Day 20 – Mini RNA-Seq pipeline architecture  
+- [ ] Day 21 – Phase 2: Bioinformatics pipelines
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
