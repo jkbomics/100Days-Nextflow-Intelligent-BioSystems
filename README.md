@@ -132,6 +132,14 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Combined adaptive parameters, metadata tagging, and dynamic module selection
 - Simulated orchestration architecture used in production bioinformatics pipelines
 
+**Day 20 — Mini RNA-Seq Pipeline Architecture (Phase 1 Completion)**
+- Implemented a modular RNA-Seq pipeline skeleton
+- Designed sequential workflow stages: QC → Trim → Align → Gene Counting
+- Introduced paired-end FASTQ handling using `Channel.fromFilePairs`
+- Applied DSL2 modular architecture across pipeline stages
+- Integrated resource configuration and execution monitoring
+- Marked completion of Phase 1: Nextflow workflow engineering foundations
+
 ---
 
 ## Vision
@@ -301,6 +309,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 ```
 
 ## Progress Tracker
+### Phase 1 — Nextflow Workflow Foundations (Day 1–20)
 
 - [x] Day 01 – Workflow fundamentals  
 - [x] Day 02 – Channels as signal propagation  
@@ -321,8 +330,16 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 17 – Metadata-driven adaptive parameter routing  
 - [X] Day 18 – Dynamic workflow branching  
 - [X] Day 19 – Metadata-driven pipeline orchestration  
-- [ ] Day 20 – Mini RNA-Seq pipeline architecture  
+- [X] Day 20 – Mini RNA-Seq pipeline architecture  
 - [ ] Day 21 – Phase 2: Bioinformatics pipelines
+
+### Phase 2 — Bioinformatics Pipelines (Day 21–50)
+
+- [ ] Day 21 – Real FastQC integration  
+- [ ] Day 22 – Adapter trimming with Trim Galore  
+- [ ] Day 23 – STAR alignment module  
+- [ ] Day 24 – FeatureCounts gene quantification  
+- [ ] Day 25 – MultiQC reporting  
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
