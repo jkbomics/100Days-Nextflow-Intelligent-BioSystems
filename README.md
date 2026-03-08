@@ -9,128 +9,12 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress
 
-**Day 01 — Workflow Fundamentals**
-- Implemented minimal DSL2 workflow
-- Established execution configuration
-- Enabled reporting (timeline, trace, report)
-
-**Day 02 — Channels as Signal Propagation**
-- Implemented file-based channel using `Channel.fromPath`
-- Connected processes via stream chaining
-- Modeled channels as biological signaling cascades
-
-**Day 03 — Process Isolation & Modular Design**
-- Designed single-responsibility processes
-- Chained multiple modular steps
-- Reinforced enzyme-like computational abstraction
-
-**Day 04 — Channel Branching & Parallel Signal Amplification**
-- Implemented channel branching in DSL2
-- Triggered multiple downstream processes from one signal
-- Demonstrated implicit parallel execution
-- Corrected file path resolution using `projectDir`
-- Modeled biological signal amplification architecture
-
-**Day 05 — Channel Operators & Signal Filtering**
-- Applied `map` to structure raw data into tuples
-- Used `filter` for threshold-based selection
-- Simulated biological signal activation logic
-- Modeled gene expression thresholding as computational filtering
-
-**Day 06 — Parameterization & Dynamic Thresholds**
-- Replaced hardcoded filtering logic with `params.threshold`
-- Enabled runtime configuration via command-line arguments
-- Introduced dynamic pipeline behavior
-- Strengthened separation between logic and configuration
-
-**Day 07 — Container Integration & Environment Reproducibility**
-- Enabled Docker execution in `nextflow.config`
-- Added `container` directive to process definition
-- Executed pipeline inside controlled Ubuntu environment
-- Established environment-level reproducibility
-
-**Day 08 — Resource Configuration & Scaling**
-- Introduced process labels for resource grouping
-- Configured CPU, memory, and time in `nextflow.config`
-- Separated computational resource allocation from workflow logic
-- Prepared pipeline for HPC/cloud scalability
-
-**Day 09 — Modular Workflow Composition (DSL2 Modules)**
-- Refactored process logic into reusable module (`modules/filter_genes.nf`)
-- Imported module using `include` statement
-- Passed parameters explicitly between workflow and module
-- Maintained separation of logic, resources, and orchestration
-- Implemented production-style DSL2 architecture
-
-**Day 10 — Execution Reports & Workflow Monitoring**
-- Enabled timeline report generation (`timeline.html`)
-- Generated execution performance report (`execution_report.html`)
-- Activated task-level trace logging (`trace.txt`)
-- Produced DAG visualization (`dag.png`)
-- Introduced workflow observability and performance insight
-
-**Day 11 — Parallel Multi-Sample Execution (Scatter Processing)**
-- Emitted multiple input files using wildcard pattern (`sample*.txt`)
-- Enabled automatic scatter execution across samples
-- Triggered independent process runs per input file
-- Demonstrated implicit parallelism via dataflow design
-- Simulated RNA-seq style multi-sample processing
-
-**Day 12 — Scatter → Gather Aggregation Pattern**
-- Implemented parallel multi-sample processing (scatter stage)
-- Collected outputs using `collect()` operator
-- Introduced result aggregation module (`SUMMARIZE_RESULTS`)
-- Demonstrated convergence of parallel tasks into unified summary
-- Modeled RNA-Seq style multi-sample result integration
-
-**Day 13 — Advanced Channel Operators & Metadata Grouping**
-- Attached metadata to input files using `map()`
-- Implemented condition-based tagging (tumor vs control)
-- Applied `groupTuple()` to group samples by biological condition
-- Introduced metadata-aware workflow structuring
-- Laid groundwork for differential and cohort-based analysis
-
-**Day 14 — Conditional Execution Based on Metadata**
-- Implemented metadata-driven branching (tumor vs control)
-- Filtered channels using condition-based logic
-- Triggered separate modular processes per group
-- Demonstrated context-aware workflow execution
-- Modeled signal-dependent pathway activation
-
-**Day 15 — Multi-Level Aggregation (Group + Global Integration)**
-- Implemented hierarchical aggregation pattern
-- Generated per-condition summaries using `groupTuple()`
-- Applied global aggregation using `collect()`
-- Modeled scatter → group summary → global convergence
-- Simulated RNA-Seq style differential backbone structure
-
-**Day 16 — Simulated Differential Comparison Logic**
-- Implemented structured comparison between tumor and control groups
-- Generated per-group gene counts after filtering
-- Extracted numeric summaries for contrast analysis
-- Introduced comparison module to compute group differences
-- Simulated architectural backbone of differential expression workflows
-
-**Day 17 — Adaptive Parameter Routing (Metadata-Driven Workflows)**
-- Implemented metadata-driven parameter routing
-- Assigned dynamic thresholds based on sample condition (tumor vs control)
-- Passed adaptive parameters through workflow tuples
-- Enabled context-aware filtering logic
-- Introduced adaptive workflow behavior inspired by biological signal sensitivity
-
-**Day 18 — Dynamic Workflow Branching**
-- Implemented metadata-driven dynamic workflow branching
-- Routed samples to different analysis modules automatically
-- Enabled context-based module selection (tumor vs control)
-- Demonstrated dynamic orchestration using channel filtering
-- Modeled signal-driven pathway activation in workflow systems
-
-**Day 19 — Metadata-Driven Pipeline Orchestration**
-- Implemented multi-layer workflow orchestration driven by sample metadata
-- Added universal QC module executed for all samples
-- Routed samples to condition-specific analysis modules (tumor vs control)
-- Combined adaptive parameters, metadata tagging, and dynamic module selection
-- Simulated orchestration architecture used in production bioinformatics pipelines
+**Day 21 — Real Quality Control Integration (FastQC)**
+- Integrated FastQC for real sequencing quality control
+- Implemented paired-end FASTQ detection using `Channel.fromFilePairs`
+- Generated HTML and ZIP quality reports for each sequencing file
+- Introduced real bioinformatics tool execution within DSL2 modules
+- Marked transition from workflow engineering (Phase 1) to real NGS pipelines (Phase 2)
 
 **Day 20 — Mini RNA-Seq Pipeline Architecture (Phase 1 Completion)**
 - Implemented a modular RNA-Seq pipeline skeleton
@@ -139,6 +23,130 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 - Applied DSL2 modular architecture across pipeline stages
 - Integrated resource configuration and execution monitoring
 - Marked completion of Phase 1: Nextflow workflow engineering foundations
+
+**Day 19 — Metadata-Driven Pipeline Orchestration**
+- Implemented multi-layer workflow orchestration driven by sample metadata
+- Added universal QC module executed for all samples
+- Routed samples to condition-specific analysis modules (tumor vs control)
+- Combined adaptive parameters, metadata tagging, and dynamic module selection
+- Simulated orchestration architecture used in production bioinformatics pipelines
+
+**Day 18 — Dynamic Workflow Branching**
+- Implemented metadata-driven dynamic workflow branching
+- Routed samples to different analysis modules automatically
+- Enabled context-based module selection (tumor vs control)
+- Demonstrated dynamic orchestration using channel filtering
+- Modeled signal-driven pathway activation in workflow systems
+
+**Day 17 — Adaptive Parameter Routing (Metadata-Driven Workflows)**
+- Implemented metadata-driven parameter routing
+- Assigned dynamic thresholds based on sample condition (tumor vs control)
+- Passed adaptive parameters through workflow tuples
+- Enabled context-aware filtering logic
+- Introduced adaptive workflow behavior inspired by biological signal sensitivity
+
+**Day 16 — Simulated Differential Comparison Logic**
+- Implemented structured comparison between tumor and control groups
+- Generated per-group gene counts after filtering
+- Extracted numeric summaries for contrast analysis
+- Introduced comparison module to compute group differences
+- Simulated architectural backbone of differential expression workflows
+
+**Day 15 — Multi-Level Aggregation (Group + Global Integration)**
+- Implemented hierarchical aggregation pattern
+- Generated per-condition summaries using `groupTuple()`
+- Applied global aggregation using `collect()`
+- Modeled scatter → group summary → global convergence
+- Simulated RNA-Seq style differential backbone structure
+
+**Day 14 — Conditional Execution Based on Metadata**
+- Implemented metadata-driven branching (tumor vs control)
+- Filtered channels using condition-based logic
+- Triggered separate modular processes per group
+- Demonstrated context-aware workflow execution
+- Modeled signal-dependent pathway activation
+
+**Day 13 — Advanced Channel Operators & Metadata Grouping**
+- Attached metadata to input files using `map()`
+- Implemented condition-based tagging (tumor vs control)
+- Applied `groupTuple()` to group samples by biological condition
+- Introduced metadata-aware workflow structuring
+- Laid groundwork for differential and cohort-based analysis
+
+**Day 12 — Scatter → Gather Aggregation Pattern**
+- Implemented parallel multi-sample processing (scatter stage)
+- Collected outputs using `collect()` operator
+- Introduced result aggregation module (`SUMMARIZE_RESULTS`)
+- Demonstrated convergence of parallel tasks into unified summary
+- Modeled RNA-Seq style multi-sample result integration
+
+**Day 11 — Parallel Multi-Sample Execution (Scatter Processing)**
+- Emitted multiple input files using wildcard pattern (`sample*.txt`)
+- Enabled automatic scatter execution across samples
+- Triggered independent process runs per input file
+- Demonstrated implicit parallelism via dataflow design
+- Simulated RNA-seq style multi-sample processing
+
+**Day 10 — Execution Reports & Workflow Monitoring**
+- Enabled timeline report generation (`timeline.html`)
+- Generated execution performance report (`execution_report.html`)
+- Activated task-level trace logging (`trace.txt`)
+- Produced DAG visualization (`dag.png`)
+- Introduced workflow observability and performance insight
+
+**Day 09 — Modular Workflow Composition (DSL2 Modules)**
+- Refactored process logic into reusable module (`modules/filter_genes.nf`)
+- Imported module using `include` statement
+- Passed parameters explicitly between workflow and module
+- Maintained separation of logic, resources, and orchestration
+- Implemented production-style DSL2 architecture
+
+**Day 08 — Resource Configuration & Scaling**
+- Introduced process labels for resource grouping
+- Configured CPU, memory, and time in `nextflow.config`
+- Separated computational resource allocation from workflow logic
+- Prepared pipeline for HPC/cloud scalability
+
+**Day 07 — Container Integration & Environment Reproducibility**
+- Enabled Docker execution in `nextflow.config`
+- Added `container` directive to process definition
+- Executed pipeline inside controlled Ubuntu environment
+- Established environment-level reproducibility
+
+**Day 06 — Parameterization & Dynamic Thresholds**
+- Replaced hardcoded filtering logic with `params.threshold`
+- Enabled runtime configuration via command-line arguments
+- Introduced dynamic pipeline behavior
+- Strengthened separation between logic and configuration
+
+**Day 05 — Channel Operators & Signal Filtering**
+- Applied `map` to structure raw data into tuples
+- Used `filter` for threshold-based selection
+- Simulated biological signal activation logic
+- Modeled gene expression thresholding as computational filtering
+
+**Day 04 — Channel Branching & Parallel Signal Amplification**
+- Implemented channel branching in DSL2
+- Triggered multiple downstream processes from one signal
+- Demonstrated implicit parallel execution
+- Corrected file path resolution using `projectDir`
+- Modeled biological signal amplification architecture
+
+**Day 03 — Process Isolation & Modular Design**
+- Designed single-responsibility processes
+- Chained multiple modular steps
+- Reinforced enzyme-like computational abstraction
+
+**Day 02 — Channels as Signal Propagation**
+- Implemented file-based channel using `Channel.fromPath`
+- Connected processes via stream chaining
+- Modeled channels as biological signaling cascades
+
+**Day 01 — Workflow Fundamentals**
+- Implemented minimal DSL2 workflow
+- Established execution configuration
+- Enabled reporting (timeline, trace, report)
+
 
 ---
 
@@ -331,11 +339,10 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 18 – Dynamic workflow branching  
 - [X] Day 19 – Metadata-driven pipeline orchestration  
 - [X] Day 20 – Mini RNA-Seq pipeline architecture  
-- [ ] Day 21 – Phase 2: Bioinformatics pipelines
 
 ### Phase 2 — Bioinformatics Pipelines (Day 21–50)
 
-- [ ] Day 21 – Real FastQC integration  
+- [X] Day 21 – Real FastQC integration  
 - [ ] Day 22 – Adapter trimming with Trim Galore  
 - [ ] Day 23 – STAR alignment module  
 - [ ] Day 24 – FeatureCounts gene quantification  
