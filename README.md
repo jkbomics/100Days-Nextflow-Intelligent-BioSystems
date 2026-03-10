@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress
 
+**Day 22 — Adapter Trimming Integration (Trim Galore)**
+- Integrated Trim Galore for adapter and quality trimming of paired-end reads
+- Implemented paired-end trimming workflow for RNA-Seq preprocessing
+- Generated cleaned FASTQ files for downstream alignment
+- Extended pipeline architecture to include real data preprocessing
+- Strengthened modular DSL2 design with dedicated trimming module
+
 **Day 21 — Real Quality Control Integration (FastQC)**
 - Integrated FastQC for real sequencing quality control
 - Implemented paired-end FASTQ detection using `Channel.fromFilePairs`
@@ -343,7 +350,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 ### Phase 2 — Bioinformatics Pipelines (Day 21–50)
 
 - [X] Day 21 – Real FastQC integration  
-- [ ] Day 22 – Adapter trimming with Trim Galore  
+- [X] Day 22 – Adapter trimming with Trim Galore  
 - [ ] Day 23 – STAR alignment module  
 - [ ] Day 24 – FeatureCounts gene quantification  
 - [ ] Day 25 – MultiQC reporting  
