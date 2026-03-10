@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress
 
+**Day 23 — RNA-Seq Alignment Integration (STAR)**
+- Integrated the STAR splice-aware aligner into the pipeline
+- Implemented alignment of paired-end trimmed reads to a reference genome
+- Generated coordinate-sorted BAM files for downstream analysis
+- Introduced genome index configuration through workflow parameters
+- Expanded pipeline architecture to include the first major compute stage
+
 **Day 22 — Adapter Trimming Integration (Trim Galore)**
 - Integrated Trim Galore for adapter and quality trimming of paired-end reads
 - Implemented paired-end trimming workflow for RNA-Seq preprocessing
@@ -351,9 +358,11 @@ nextflow run phase1_foundations/day02_channels/main.nf
 
 - [X] Day 21 – Real FastQC integration  
 - [X] Day 22 – Adapter trimming with Trim Galore  
-- [ ] Day 23 – STAR alignment module  
-- [ ] Day 24 – FeatureCounts gene quantification  
-- [ ] Day 25 – MultiQC reporting  
+- [X] Day 23 – STAR alignment module  
+- [ ] Day 24 – Gene quantification with FeatureCounts  
+- [ ] Day 25 – MultiQC report aggregation  
+- [ ] Day 26 – BAM indexing and alignment statistics  
+- [ ] Day 27 – Expression matrix generation  
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
