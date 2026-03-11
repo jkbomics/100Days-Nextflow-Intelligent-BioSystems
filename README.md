@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress
 
+**Day 24 — Gene Quantification with FeatureCounts**
+- Integrated FeatureCounts to quantify aligned RNA-Seq reads at the gene level
+- Processed coordinate-sorted BAM files generated from the STAR alignment stage
+- Produced a gene count table suitable for downstream differential expression analysis
+- Extended the pipeline from alignment to expression quantification
+- Completed the core RNA-Seq processing chain from FASTQ to gene counts
+
 **Day 23 — RNA-Seq Alignment Integration (STAR)**
 - Integrated the STAR splice-aware aligner into the pipeline
 - Implemented alignment of paired-end trimmed reads to a reference genome
@@ -359,7 +366,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 21 – Real FastQC integration  
 - [X] Day 22 – Adapter trimming with Trim Galore  
 - [X] Day 23 – STAR alignment module  
-- [ ] Day 24 – Gene quantification with FeatureCounts  
+- [X] Day 24 – Gene quantification with FeatureCounts  
 - [ ] Day 25 – MultiQC report aggregation  
 - [ ] Day 26 – BAM indexing and alignment statistics  
 - [ ] Day 27 – Expression matrix generation  
