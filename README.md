@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress
 
+**Day 25 — Unified Pipeline Reporting (MultiQC)**
+- Integrated MultiQC to aggregate outputs from multiple RNA-Seq processing tools
+- Automatically summarized FastQC reports, trimming logs, and alignment metrics
+- Generated a single interactive HTML dashboard for pipeline-wide quality assessment
+- Improved interpretability and usability of workflow outputs
+- Extended the pipeline architecture with automated reporting and result consolidation
+
 **Day 24 — Gene Quantification with FeatureCounts**
 - Integrated FeatureCounts to quantify aligned RNA-Seq reads at the gene level
 - Processed coordinate-sorted BAM files generated from the STAR alignment stage
@@ -367,7 +374,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 22 – Adapter trimming with Trim Galore  
 - [X] Day 23 – STAR alignment module  
 - [X] Day 24 – Gene quantification with FeatureCounts  
-- [ ] Day 25 – MultiQC report aggregation  
+- [X] Day 25 – MultiQC report aggregation  
 - [ ] Day 26 – BAM indexing and alignment statistics  
 - [ ] Day 27 – Expression matrix generation  
 - [ ] ...  
