@@ -7,7 +7,14 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ---
 
-## Latest Progress
+## Latest Progress 
+
+**Day 26 — BAM Indexing and Alignment Statistics**
+- Integrated SAMtools for post-alignment processing
+- Generated BAM index files (.bai) for efficient genomic data access
+- Computed alignment statistics using samtools flagstat
+- Enabled downstream compatibility with genome browsers and QC analysis
+- Expanded the pipeline with post-alignment quality assessment
 
 **Day 25 — Unified Pipeline Reporting (MultiQC)**
 - Integrated MultiQC to aggregate outputs from multiple RNA-Seq processing tools
@@ -375,7 +382,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 23 – STAR alignment module  
 - [X] Day 24 – Gene quantification with FeatureCounts  
 - [X] Day 25 – MultiQC report aggregation  
-- [ ] Day 26 – BAM indexing and alignment statistics  
+- [X] Day 26 – BAM indexing and alignment statistics  
 - [ ] Day 27 – Expression matrix generation  
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
