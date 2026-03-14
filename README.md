@@ -9,6 +9,9 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 27 — Expression matrix generation from featureCounts output.
+- Implemented formatting step to produce a clean gene count matrix suitable for differential expression analysis.
+
 **Day 26 — BAM Indexing and Alignment Statistics**
 - Integrated SAMtools for post-alignment processing
 - Generated BAM index files (.bai) for efficient genomic data access
@@ -383,7 +386,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 24 – Gene quantification with FeatureCounts  
 - [X] Day 25 – MultiQC report aggregation  
 - [X] Day 26 – BAM indexing and alignment statistics  
-- [ ] Day 27 – Expression matrix generation  
+- [X] Day 27 – Expression matrix generation  
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
