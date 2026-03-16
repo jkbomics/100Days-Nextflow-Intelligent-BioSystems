@@ -9,6 +9,9 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 29 — Differential expression analysis with DESeq2**
+- Added automated statistical analysis to identify differentially expressed genes and generate volcano plot visualizations.
+
 **Day 28 — Metadata Integration & Design Matrix Generation**
 - Integrated experimental metadata into the RNA-Seq workflow
 - Introduced structured sample sheet (`samplesheet.csv`) for experiment description
@@ -395,6 +398,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 26 – BAM indexing and alignment statistics  
 - [X] Day 27 – Expression matrix generation
 - [X] Day 28 – Metadata integration & design matrix generation
+- [X] Day 29 - Differential expression
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
