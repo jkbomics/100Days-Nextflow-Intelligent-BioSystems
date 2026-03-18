@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 31 — Automated End-to-End Reporting (HTML Report Generation)**
+- Implemented automated report generation to consolidate pipeline outputs
+- Created a unified HTML report summarizing QC, alignment, differential expression, and enrichment results
+- Integrated final reporting stage into the Nextflow workflow
+- Improved usability by transforming scattered outputs into a single interpretable report
+- Elevated the pipeline to a production-ready, user-friendly system
+
 **Day 30 — Functional Enrichment & Pathway Analysis**
 - Integrated functional enrichment analysis using clusterProfiler
 - Identified enriched biological pathways (KEGG) and gene ontology (GO terms)
@@ -407,6 +414,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 28 – Metadata integration & design matrix generation
 - [X] Day 29 - Differential expression
 - [X] Day 30 – Functional enrichment & pathway analysis
+- [X] Day 31 – Automated HTML report generation
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
