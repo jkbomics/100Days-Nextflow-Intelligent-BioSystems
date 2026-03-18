@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 30 — Functional Enrichment & Pathway Analysis**
+- Integrated functional enrichment analysis using clusterProfiler
+- Identified enriched biological pathways (KEGG) and gene ontology (GO terms)
+- Filtered differentially expressed genes for downstream biological interpretation
+- Generated enrichment result tables and visualization plots (dotplots)
+- Extended the pipeline from statistical analysis to biological insight generation
+
 **Day 29 — Differential expression analysis with DESeq2**
 - Added automated statistical analysis to identify differentially expressed genes and generate volcano plot visualizations.
 
@@ -399,6 +406,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 27 – Expression matrix generation
 - [X] Day 28 – Metadata integration & design matrix generation
 - [X] Day 29 - Differential expression
+- [X] Day 30 – Functional enrichment & pathway analysis
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
