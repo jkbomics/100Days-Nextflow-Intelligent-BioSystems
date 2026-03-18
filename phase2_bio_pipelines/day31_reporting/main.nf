@@ -1,0 +1,45 @@
+nextflow.enable.dsl=2
+
+include { FASTQC } from './modules/fastqc.nf'
+include { TRIM_GALORE } from './modules/trim_galore.nf'
+include { STAR_ALIGN } from './modules/star_align.nf'
+include { BAM_INDEX } from './modules/bam_index.nf'
+include { ALIGNMENT_STATS } from './modules/alignment_stats.nf'
+include { FEATURECOUNTS } from './modules/featurecounts.nf'
+include { FORMAT_COUNTS } from './modules/expression_matrix.nf'
+include { DESIGN_MATRIX } from './modules/design_matrix.nf'
+include { DESEQ2_ANALYSIS } from './modules/deseq2_analysis.nf'
+include {ENRICHMENT_ANALYSIS } from './modules/enrichment_analysis.nf'
+include {GENERATE_REPORT} from './modlues/report_generation.nf'
+
+workflow {
+
+    reads = Channel.fromFilePairs("${projectDir}/input/*_{R1,R2}.fastq.gz")
+
+    qc = FASTQC(reads)
+
+    trimmed = TRIM_GALORE(reads)
+
+    aligned = STAR_ALIGN(trimmed)
+
+    indexed = BAM_INDEX(aligned)
+
+    stats = ALIGNMENT_STATS(indexed)
+
+    bam_files = indexed.map { sample, bam, bai -> bam }.collect()
+
+    counts = FEATURECOUNTS(bam_files)
+
+    matrix = FORMAT_COUNTS(counts)
+
+    metadata = Channel.fromPath("${projectDir}/metadata/samplesheet.csv")
+
+    design = DESIGN_MATRIX(metadata)
+    
+    diffexp = DESEQ2_ANALYSIS(matrix, design)
+
+    enrichment = ENRICHMENT_ANALYSIS(diffexp)
+
+    report = GENERATE_REPORT(enrichment)
+
+}
