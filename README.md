@@ -8,6 +8,12 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 ---
 
 ## Latest Progress 
+**Day 32 — Profile-Based Execution & Multi-Environment Support**
+- Implemented Nextflow configuration profiles for flexible execution environments
+- Enabled pipeline execution across local, Docker, and HPC (SLURM) systems
+- Separated workflow logic from execution infrastructure using profile-based configuration
+- Improved portability, scalability, and reproducibility of the pipeline
+- Aligned workflow architecture with production-grade pipeline standards (nf-core style)
 
 **Day 31 — Automated End-to-End Reporting (HTML Report Generation)**
 - Implemented automated report generation to consolidate pipeline outputs
@@ -415,6 +421,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 29 - Differential expression
 - [X] Day 30 – Functional enrichment & pathway analysis
 - [X] Day 31 – Automated HTML report generation
+- [X] Day 32 – Profile-based execution (local / Docker / HPC)
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
