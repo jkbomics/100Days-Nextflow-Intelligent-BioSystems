@@ -8,6 +8,14 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 ---
 
 ## Latest Progress 
+
+**Day 33 — Parameter Validation & Input Safety Layer**
+- Implemented validation layer to verify required input files and parameters before execution
+- Added checks for input directory, metadata file, reference genome, and annotation files
+- Prevented runtime failures by enforcing early-stage validation
+- Improved pipeline robustness, reliability, and user safety
+- Aligned workflow design with production-grade standards for reproducible bioinformatics pipelines
+
 **Day 32 — Profile-Based Execution & Multi-Environment Support**
 - Implemented Nextflow configuration profiles for flexible execution environments
 - Enabled pipeline execution across local, Docker, and HPC (SLURM) systems
@@ -422,6 +430,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 30 – Functional enrichment & pathway analysis
 - [X] Day 31 – Automated HTML report generation
 - [X] Day 32 – Profile-based execution (local / Docker / HPC)
+- [X] Day 33 – Parameter validation & input safety
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
