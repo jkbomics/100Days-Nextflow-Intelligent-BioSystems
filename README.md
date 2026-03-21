@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 34 — Run Metadata Tracking & Provenance Logging**
+- Implemented automated capture of workflow execution metadata
+- Recorded run details including execution time, environment, and system configuration
+- Enabled generation of timeline, trace, and execution reports for workflow monitoring
+- Integrated provenance tracking to support reproducibility and auditability
+- Enhanced pipeline transparency and debugging capability for large-scale analyses
+
 **Day 33 — Parameter Validation & Input Safety Layer**
 - Implemented validation layer to verify required input files and parameters before execution
 - Added checks for input directory, metadata file, reference genome, and annotation files
@@ -431,6 +438,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 31 – Automated HTML report generation
 - [X] Day 32 – Profile-based execution (local / Docker / HPC)
 - [X] Day 33 – Parameter validation & input safety
+- [X] Day 34 – Run metadata tracking & provenance logging 
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
