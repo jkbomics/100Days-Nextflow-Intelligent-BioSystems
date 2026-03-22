@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 35 — Caching, Resume Optimization & Fault Tolerance**
+- Enabled Nextflow caching mechanisms to avoid recomputation of completed tasks
+- Implemented resume functionality to allow recovery from failed executions
+- Optimized workflow execution by reusing intermediate results across runs
+- Improved pipeline efficiency and scalability for large-scale datasets
+- Enhanced fault tolerance and reliability in multi-step bioinformatics workflows
+
 **Day 34 — Run Metadata Tracking & Provenance Logging**
 - Implemented automated capture of workflow execution metadata
 - Recorded run details including execution time, environment, and system configuration
@@ -438,7 +445,8 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 31 – Automated HTML report generation
 - [X] Day 32 – Profile-based execution (local / Docker / HPC)
 - [X] Day 33 – Parameter validation & input safety
-- [X] Day 34 – Run metadata tracking & provenance logging 
+- [X] Day 34 – Run metadata tracking & provenance logging
+- [X] Day 35 – Caching, resume optimization & fault tolerance
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
