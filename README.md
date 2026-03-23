@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 36 — Parallel Scaling & Batch Processing**
+- Implemented batch-wise processing using channel grouping strategies
+- Introduced controlled parallel execution to prevent resource overutilization
+- Enabled scalable handling of large sample cohorts through batching
+- Configured execution limits (maxForks, queueSize) for efficient resource management
+- Improved pipeline scalability and performance for HPC and large-scale workflows
+
 **Day 35 — Caching, Resume Optimization & Fault Tolerance**
 - Enabled Nextflow caching mechanisms to avoid recomputation of completed tasks
 - Implemented resume functionality to allow recovery from failed executions
@@ -447,6 +454,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 33 – Parameter validation & input safety
 - [X] Day 34 – Run metadata tracking & provenance logging
 - [X] Day 35 – Caching, resume optimization & fault tolerance
+- [X] Day 36 – Parallel scaling & batch processing
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
