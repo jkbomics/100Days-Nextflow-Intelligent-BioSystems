@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 37 — Dynamic Resource Allocation & Adaptive Execution**
+- Implemented dynamic CPU and memory allocation based on input size and workflow stage
+- Introduced adaptive retry strategy with increased resources upon task failure
+- Enabled intelligent resource tuning using Nextflow process directives
+- Improved pipeline efficiency and robustness across varying dataset sizes
+- Transitioned workflow from static resource configuration to adaptive execution model
+
 **Day 36 — Parallel Scaling & Batch Processing**
 - Implemented batch-wise processing using channel grouping strategies
 - Introduced controlled parallel execution to prevent resource overutilization
@@ -455,6 +462,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 34 – Run metadata tracking & provenance logging
 - [X] Day 35 – Caching, resume optimization & fault tolerance
 - [X] Day 36 – Parallel scaling & batch processing
+- [X] Day 37 - Dynamic resource allocation & adaptive execution
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
