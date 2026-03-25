@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 38 — Data-Driven Branching & Signal-Based Workflow Decisions**
+- Implemented conditional workflow execution based on input data quality signals
+- Introduced decision nodes to dynamically alter pipeline behavior at runtime
+- Enabled selective processing (e.g., trimming vs skipping) based on QC-derived flags
+- Modeled signal-driven execution patterns inspired by biological systems
+- Transitioned pipeline from static execution to data-aware, decision-driven architecture
+
 **Day 37 — Dynamic Resource Allocation & Adaptive Execution**
 - Implemented dynamic CPU and memory allocation based on input size and workflow stage
 - Introduced adaptive retry strategy with increased resources upon task failure
@@ -463,6 +470,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 35 – Caching, resume optimization & fault tolerance
 - [X] Day 36 – Parallel scaling & batch processing
 - [X] Day 37 - Dynamic resource allocation & adaptive execution
+- [X] Day 38 – Data-driven branching & workflow decisions
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
