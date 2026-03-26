@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 39 — Streaming & Event-Driven Workflow Execution**
+- Implemented continuous data monitoring using channel-based streaming (watchPath)
+- Enabled dynamic detection and processing of newly generated input files during runtime
+- Introduced event-driven execution model for incremental data processing
+- Simulated real-time pipeline behavior inspired by biological sensing systems
+- Transitioned workflow from batch processing to reactive, continuous execution architecture
+
 **Day 38 — Data-Driven Branching & Signal-Based Workflow Decisions**
 - Implemented conditional workflow execution based on input data quality signals
 - Introduced decision nodes to dynamically alter pipeline behavior at runtime
@@ -471,6 +478,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 36 – Parallel scaling & batch processing
 - [X] Day 37 - Dynamic resource allocation & adaptive execution
 - [X] Day 38 – Data-driven branching & workflow decisions
+- [X] Day 39 – Streaming & event-driven execution
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
