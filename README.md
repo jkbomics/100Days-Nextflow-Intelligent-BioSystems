@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 40 — Stateful Workflows & Checkpointing**
+- Implemented state-aware execution by tracking processed samples across runs
+- Enabled checkpointing to skip previously completed data and avoid redundant computation
+- Introduced persistent state management using external state files
+- Allowed safe continuation of long-running workflows with incremental processing
+- Transitioned pipeline from stateless execution to memory-aware, persistent system design
+
 **Day 39 — Streaming & Event-Driven Workflow Execution**
 - Implemented continuous data monitoring using channel-based streaming (watchPath)
 - Enabled dynamic detection and processing of newly generated input files during runtime
@@ -479,6 +486,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 37 - Dynamic resource allocation & adaptive execution
 - [X] Day 38 – Data-driven branching & workflow decisions
 - [X] Day 39 – Streaming & event-driven execution
+- [ ] Day 40 – Stateful workflows & checkpointing
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
