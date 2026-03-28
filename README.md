@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 41 — Pipeline Versioning & Reproducible Releases**
+- Implemented semantic versioning using a dedicated VERSION file
+- Integrated version tracking into workflow execution for runtime visibility
+- Established Git-based release management with tagged pipeline versions
+- Added CHANGELOG to document feature evolution and pipeline updates
+- Enabled reproducible and stable pipeline execution across different versions
+
 **Day 40 — Stateful Workflows & Checkpointing**
 - Implemented state-aware execution by tracking processed samples across runs
 - Enabled checkpointing to skip previously completed data and avoid redundant computation
@@ -486,7 +493,8 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 37 - Dynamic resource allocation & adaptive execution
 - [X] Day 38 – Data-driven branching & workflow decisions
 - [X] Day 39 – Streaming & event-driven execution
-- [ ] Day 40 – Stateful workflows & checkpointing
+- [X] Day 40 – Stateful workflows & checkpointing
+- [X] Day 41 – Pipeline versioning & reproducible releases
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
