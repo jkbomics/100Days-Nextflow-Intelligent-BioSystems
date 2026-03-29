@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 42 — CLI-Based Interface & Usability Layer**
+- Implemented a command-line wrapper script to simplify pipeline execution
+- Enabled user-friendly parameter passing for input data and execution profiles
+- Reduced complexity of Nextflow commands for end users
+- Improved accessibility and usability for non-expert users
+- Transitioned pipeline from developer-centric workflow to user-oriented tool
+
 **Day 41 — Pipeline Versioning & Reproducible Releases**
 - Implemented semantic versioning using a dedicated VERSION file
 - Integrated version tracking into workflow execution for runtime visibility
@@ -495,6 +502,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 39 – Streaming & event-driven execution
 - [X] Day 40 – Stateful workflows & checkpointing
 - [X] Day 41 – Pipeline versioning & reproducible releases
+- [X] Day 42 – CLI-based interface & usability layer
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
