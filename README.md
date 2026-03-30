@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 43 — CLI Help System & Self-Documenting Interface**
+- Implemented built-in help functionality for the CLI wrapper script
+- Added structured usage instructions and parameter descriptions
+- Integrated input validation to guide correct pipeline execution
+- Improved user experience by making the pipeline self-explanatory
+- Enhanced accessibility and reduced dependency on external documentation
+
 **Day 42 — CLI-Based Interface & Usability Layer**
 - Implemented a command-line wrapper script to simplify pipeline execution
 - Enabled user-friendly parameter passing for input data and execution profiles
@@ -503,6 +510,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 40 – Stateful workflows & checkpointing
 - [X] Day 41 – Pipeline versioning & reproducible releases
 - [X] Day 42 – CLI-based interface & usability layer
+- [X] Day 43 – CLI help system & self-documentation
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
