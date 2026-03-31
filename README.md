@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 44 — Variant Calling Pipeline Foundation**
+- Implemented core variant calling workflow including read alignment, BAM processing, and variant detection
+- Integrated alignment step using BWA and downstream processing with SAMtools
+- Generated sorted BAM files for accurate variant calling
+- Performed variant detection using bcftools to produce VCF outputs
+- Expanded pipeline scope beyond RNA-Seq into genomic variant analysis
+
 **Day 43 — CLI Help System & Self-Documenting Interface**
 - Implemented built-in help functionality for the CLI wrapper script
 - Added structured usage instructions and parameter descriptions
@@ -511,6 +518,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 41 – Pipeline versioning & reproducible releases
 - [X] Day 42 – CLI-based interface & usability layer
 - [X] Day 43 – CLI help system & self-documentation
+- [X] Day 44 – Variant calling pipeline foundation
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
