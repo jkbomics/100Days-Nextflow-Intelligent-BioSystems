@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 46 — GATK-Based Variant Calling (Clinical-Grade Implementation)**
+- Integrated GATK HaplotypeCaller for high-accuracy variant detection
+- Upgraded pipeline from basic variant calling to industry-standard workflow
+- Incorporated clinically relevant processing steps for reliable genomic analysis
+- Generated indexed VCF outputs for downstream analysis and interpretation
+- Transitioned pipeline to support production-grade and clinical genomics applications
+
 **Day 45 — Production-Grade Variant Calling Enhancements**
 - Extended variant calling pipeline with BAM indexing for efficient data access
 - Integrated duplicate marking to eliminate PCR bias and improve variant accuracy
@@ -527,6 +534,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 43 – CLI help system & self-documentation
 - [X] Day 44 – Variant calling pipeline foundation
 - [X] Day 45 – Production-grade variant calling enhancements
+- [X] Day 46 – GATK-based variant calling implementation
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
