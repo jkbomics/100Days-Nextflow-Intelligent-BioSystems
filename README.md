@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 47 — Metagenomics Pipeline (Taxonomic Profiling)**
+- Implemented metagenomics workflow for taxonomic classification of sequencing reads
+- Integrated Kraken2 for high-speed, k-mer based taxonomic assignment
+- Generated species-level abundance and classification reports
+- Expanded pipeline capabilities into microbiome and environmental genomics analysis
+- Transitioned from single-domain pipelines to multi-domain bioinformatics systems
+
 **Day 46 — GATK-Based Variant Calling (Clinical-Grade Implementation)**
 - Integrated GATK HaplotypeCaller for high-accuracy variant detection
 - Upgraded pipeline from basic variant calling to industry-standard workflow
@@ -535,6 +542,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 44 – Variant calling pipeline foundation
 - [X] Day 45 – Production-grade variant calling enhancements
 - [X] Day 46 – GATK-based variant calling implementation
+- [X] Day 47 – Metagenomics pipeline (taxonomic profiling)
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
