@@ -543,6 +543,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 45 – Production-grade variant calling enhancements
 - [X] Day 46 – GATK-based variant calling implementation
 - [X] Day 47 – Metagenomics pipeline (taxonomic profiling)
+- [X] Day 48 – Metagenomics visualization & reporting
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
