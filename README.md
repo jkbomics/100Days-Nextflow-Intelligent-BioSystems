@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 49 — Genome Assembly Pipeline (de novo Assembly)**
+- Implemented genome assembly workflow using SPAdes for reconstructing contigs from sequencing reads
+- Generated assembled contig sequences for downstream genomic analysis
+- Integrated basic assembly statistics to evaluate contig structure and count
+- Expanded pipeline capabilities into genome reconstruction and structural genomics
+- Completed coverage of core bioinformatics domains including RNA-Seq, variant calling, metagenomics, and assembly
+
 **Day 48 — Metagenomics Visualization & Interactive Reporting**
 - Integrated Krona for interactive visualization of taxonomic classification results
 - Generated hierarchical, browser-based reports for microbial composition analysis
@@ -551,6 +558,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 46 – GATK-based variant calling implementation
 - [X] Day 47 – Metagenomics pipeline (taxonomic profiling)
 - [X] Day 48 – Metagenomics visualization & reporting
+- [X] Day 49 – Genome assembly pipeline (de novo assembly)
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
