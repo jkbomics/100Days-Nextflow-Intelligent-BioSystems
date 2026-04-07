@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 51 — Transcriptomic Signal Modeling (Biology as Signal System)**
+- Modeled gene expression data as continuous signals with stochastic noise components
+- Simulated transcriptomic variability to represent biological and technical noise
+- Established conceptual mapping between gene expression and sensor signal behavior
+- Introduced signal-processing perspective for analyzing transcriptomic data
+- Initiated Phase 3 by bridging bioinformatics workflows with intelligent sensing systems
+
 **Day 50 — Pathway Automation & Biological Interpretation**
 - Implemented automated pathway analysis to map gene-level outputs to biological pathways
 - Integrated enrichment analysis for KEGG pathways and Gene Ontology processes
@@ -567,6 +574,10 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 48 – Metagenomics visualization & reporting
 - [X] Day 49 – Genome assembly pipeline (de novo assembly)
 - [X] Day 50 – Pathway automation & biological interpretation
+
+### Phase 3 - Intelligent Sensing + Bioinformatics (Days 51–75)
+
+- [X] Day 51 – Transcriptomic signal modeling 
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
