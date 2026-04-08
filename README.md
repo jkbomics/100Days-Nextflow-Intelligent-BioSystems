@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 52 — Noise Modeling & Signal Filtering (Normalization as Signal Processing)**
+- Simulated biological and technical noise in gene expression data
+- Modeled observed expression as a combination of true signal and stochastic noise
+- Applied filtering techniques to recover underlying signal from noisy data
+- Established analogy between RNA-Seq normalization and signal processing filters
+- Strengthened foundation for anomaly detection and AI-driven transcriptomic analysis
+
 **Day 51 — Transcriptomic Signal Modeling (Biology as Signal System)**
 - Modeled gene expression data as continuous signals with stochastic noise components
 - Simulated transcriptomic variability to represent biological and technical noise
@@ -577,7 +584,8 @@ nextflow run phase1_foundations/day02_channels/main.nf
 
 ### Phase 3 - Intelligent Sensing + Bioinformatics (Days 51–75)
 
-- [X] Day 51 – Transcriptomic signal modeling 
+- [X] Day 51 – Transcriptomic signal modeling
+- [X] Day 52 – Noise modeling & signal filtering
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
