@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 53 — Differential Expression as Anomaly Detection**
+- Reframed differential gene expression as anomaly detection relative to baseline signal
+- Modeled control samples as baseline and disease samples as perturbed signal states
+- Computed expression deviations to identify significantly altered genes
+- Implemented threshold-based anomaly detection for gene-level variation
+- Bridged transcriptomic analysis with AI concepts such as anomaly detection and signal deviation
+
 **Day 52 — Noise Modeling & Signal Filtering (Normalization as Signal Processing)**
 - Simulated biological and technical noise in gene expression data
 - Modeled observed expression as a combination of true signal and stochastic noise
@@ -586,6 +593,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 
 - [X] Day 51 – Transcriptomic signal modeling
 - [X] Day 52 – Noise modeling & signal filtering
+- [X] Day 53 – Differential expression as anomaly detection
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
