@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 54 — Context-Aware Signal Modeling (Baseline Drift Integration)**
+- Modeled gene expression with dynamic baseline shifts to reflect biological variability
+- Simulated control signal drift and disease perturbations for realistic scenarios
+- Implemented baseline estimation to capture evolving reference signal
+- Detected anomalies relative to a dynamic baseline instead of fixed thresholds
+- Enhanced model to support context-aware interpretation of transcriptomic signals
+
 **Day 53 — Differential Expression as Anomaly Detection**
 - Reframed differential gene expression as anomaly detection relative to baseline signal
 - Modeled control samples as baseline and disease samples as perturbed signal states
@@ -594,6 +601,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 51 – Transcriptomic signal modeling
 - [X] Day 52 – Noise modeling & signal filtering
 - [X] Day 53 – Differential expression as anomaly detection
+- [X] Day 54 – Context-aware signal modeling
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
