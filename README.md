@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 55 — Adaptive Thresholding for Anomaly Detection**
+- Replaced fixed thresholds with data-driven, adaptive thresholding based on statistical properties
+- Modeled dynamic sensitivity using mean and standard deviation of signal deviations
+- Improved robustness of anomaly detection under varying noise and baseline conditions
+- Enabled context-aware and distribution-aware identification of significant gene expression changes
+- Advanced system toward adaptive and intelligent signal interpretation
+
 **Day 54 — Context-Aware Signal Modeling (Baseline Drift Integration)**
 - Modeled gene expression with dynamic baseline shifts to reflect biological variability
 - Simulated control signal drift and disease perturbations for realistic scenarios
@@ -602,6 +609,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 52 – Noise modeling & signal filtering
 - [X] Day 53 – Differential expression as anomaly detection
 - [X] Day 54 – Context-aware signal modeling
+- [X] Day 55 – Adaptive thresholding for anomaly detection
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
