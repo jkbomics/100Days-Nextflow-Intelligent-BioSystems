@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 56 — Low-Power RNA Signature Detection (Edge Bioinformatics)**
+- Reduced high-dimensional transcriptomic data to a minimal set of informative genes
+- Implemented gene signature selection based on expression deviation for efficient signal detection
+- Modeled biosensor-like behavior using a small subset of genes instead of full transcriptome
+- Demonstrated concept of low-power, feature-efficient biological signal detection
+- Extended pipeline toward edge-AI inspired bioinformatics systems and diagnostic applications
+
 **Day 55 — Adaptive Thresholding for Anomaly Detection**
 - Replaced fixed thresholds with data-driven, adaptive thresholding based on statistical properties
 - Modeled dynamic sensitivity using mean and standard deviation of signal deviations
@@ -610,6 +617,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 53 – Differential expression as anomaly detection
 - [X] Day 54 – Context-aware signal modeling
 - [X] Day 55 – Adaptive thresholding for anomaly detection
+- [X] Day 56 – Low-power RNA signature detection
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
