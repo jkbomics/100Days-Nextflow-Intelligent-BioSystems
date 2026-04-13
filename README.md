@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 57 — Automated Feature Selection (Learning Important Genes)**
+- Implemented machine learning–based feature selection to identify informative genes automatically
+- Replaced manual gene ranking with data-driven importance scoring using a classification model
+- Ranked genes based on their contribution to distinguishing control vs disease conditions
+- Selected top features to construct a learned gene signature
+- Extended pipeline from rule-based analysis to learning-based intelligent systems
+
 **Day 56 — Low-Power RNA Signature Detection (Edge Bioinformatics)**
 - Reduced high-dimensional transcriptomic data to a minimal set of informative genes
 - Implemented gene signature selection based on expression deviation for efficient signal detection
@@ -618,6 +625,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 54 – Context-aware signal modeling
 - [X] Day 55 – Adaptive thresholding for anomaly detection
 - [X] Day 56 – Low-power RNA signature detection
+- [X] Day 57 – Automated feature selection
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
