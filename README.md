@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 58 — Predictive Modeling (Gene Expression → Decision)**
+- Implemented machine learning–based classification to predict biological conditions from gene expression data
+- Trained a model using transcriptomic features to distinguish control vs disease samples
+- Generated predictions and evaluated model performance using accuracy metrics
+- Extended pipeline from feature identification to decision-making and outcome prediction
+- Established foundation for AI-driven diagnostic modeling using transcriptomic signals
+
 **Day 57 — Automated Feature Selection (Learning Important Genes)**
 - Implemented machine learning–based feature selection to identify informative genes automatically
 - Replaced manual gene ranking with data-driven importance scoring using a classification model
@@ -626,6 +633,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 55 – Adaptive thresholding for anomaly detection
 - [X] Day 56 – Low-power RNA signature detection
 - [X] Day 57 – Automated feature selection
+- [X] Day 58 – Predictive modeling
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
