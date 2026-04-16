@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 59 — Model Evaluation & Generalization (Train–Test Validation)**
+- Implemented train–test split to evaluate model performance on unseen data
+- Assessed predictive accuracy using independent test samples to avoid overfitting
+- Generated confusion matrix to analyze classification performance and error patterns
+- Strengthened pipeline by introducing validation strategy for reliable model assessment
+- Transitioned from functional prediction models to trustworthy and generalizable systems
+
 **Day 58 — Predictive Modeling (Gene Expression → Decision)**
 - Implemented machine learning–based classification to predict biological conditions from gene expression data
 - Trained a model using transcriptomic features to distinguish control vs disease samples
@@ -634,6 +641,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 56 – Low-power RNA signature detection
 - [X] Day 57 – Automated feature selection
 - [X] Day 58 – Predictive modeling
+- [X] Day 59 – Model evaluation & generalization
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
