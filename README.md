@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 60 — Cross-Validation & Model Robustness**
+- Implemented k-fold cross-validation to evaluate model performance across multiple data splits
+- Assessed consistency of predictive accuracy to reduce dependence on a single train–test split
+- Computed mean accuracy and variance to quantify model stability and robustness
+- Strengthened validation strategy to ensure reliable and generalizable predictions
+- Advanced pipeline toward production-grade, trustworthy AI modeling
+
 **Day 59 — Model Evaluation & Generalization (Train–Test Validation)**
 - Implemented train–test split to evaluate model performance on unseen data
 - Assessed predictive accuracy using independent test samples to avoid overfitting
@@ -642,6 +649,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 57 – Automated feature selection
 - [X] Day 58 – Predictive modeling
 - [X] Day 59 – Model evaluation & generalization
+- [X] Day 60 – Cross-validation & robustness testing
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
