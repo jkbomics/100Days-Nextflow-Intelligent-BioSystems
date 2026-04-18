@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 61 — Model Interpretability (Explainable Gene-Level Insights)**
+- Extracted feature importance from trained machine learning model to identify key genes driving predictions
+- Ranked genes based on their contribution to distinguishing control vs disease conditions
+- Transformed predictive pipeline into an interpretable system linking model outputs to biological signals
+- Enabled insight generation for potential biomarker discovery and mechanistic understanding
+- Advanced workflow from prediction-focused modeling to explainable and biologically meaningful AI systems
+
 **Day 60 — Cross-Validation & Model Robustness**
 - Implemented k-fold cross-validation to evaluate model performance across multiple data splits
 - Assessed consistency of predictive accuracy to reduce dependence on a single train–test split
@@ -650,6 +657,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 58 – Predictive modeling
 - [X] Day 59 – Model evaluation & generalization
 - [X] Day 60 – Cross-validation & robustness testing
+- [X] Day 61 – Model interpretability
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
