@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 62 — Local Explainability (Sample-Specific Gene Contributions)**
+- Implemented SHAP-based analysis to compute gene-level contributions for each individual sample
+- Transitioned from global feature importance to sample-specific interpretation of model predictions
+- Identified context-dependent gene influence driving classification outcomes
+- Enabled fine-grained insight into how different genes impact different samples
+- Advanced pipeline toward personalized and precision-level transcriptomic analysis
+
 **Day 61 — Model Interpretability (Explainable Gene-Level Insights)**
 - Extracted feature importance from trained machine learning model to identify key genes driving predictions
 - Ranked genes based on their contribution to distinguishing control vs disease conditions
@@ -658,6 +665,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 59 – Model evaluation & generalization
 - [X] Day 60 – Cross-validation & robustness testing
 - [X] Day 61 – Model interpretability
+- [X] Day 62 – Local explainability (SHAP) 
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
