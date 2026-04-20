@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 63 — Model Confidence & Uncertainty (Prediction Reliability)**
+- Implemented probability-based prediction scoring to quantify confidence in model outputs
+- Computed per-sample confidence levels using class probabilities from the trained model
+- Identified low-confidence predictions to highlight uncertain or ambiguous samples
+- Introduced uncertainty-aware decision-making into the pipeline
+- Extended system from explainable predictions to reliability-aware intelligent modeling
+
 **Day 62 — Local Explainability (Sample-Specific Gene Contributions)**
 - Implemented SHAP-based analysis to compute gene-level contributions for each individual sample
 - Transitioned from global feature importance to sample-specific interpretation of model predictions
@@ -665,7 +672,8 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 59 – Model evaluation & generalization
 - [X] Day 60 – Cross-validation & robustness testing
 - [X] Day 61 – Model interpretability
-- [X] Day 62 – Local explainability (SHAP) 
+- [X] Day 62 – Local explainability (SHAP)
+- [X] Day 63 – Model confidence & uncertainty
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
