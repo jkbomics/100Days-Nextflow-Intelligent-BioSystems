@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 64 — Decision Threshold Tuning (Sensitivity–Specificity Trade-off)**
+- Implemented adjustable decision thresholds to control classification outcomes
+- Evaluated prediction behavior across multiple probability cutoffs
+- Explored trade-off between sensitivity (detecting true positives) and specificity (reducing false positives)
+- Enabled context-driven decision-making based on application requirements
+- Extended pipeline from prediction confidence to controlled and tunable decision boundaries
+
 **Day 63 — Model Confidence & Uncertainty (Prediction Reliability)**
 - Implemented probability-based prediction scoring to quantify confidence in model outputs
 - Computed per-sample confidence levels using class probabilities from the trained model
@@ -674,6 +681,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 61 – Model interpretability
 - [X] Day 62 – Local explainability (SHAP)
 - [X] Day 63 – Model confidence & uncertainty
+- [X] Day 64 – Decision threshold tuning 
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
