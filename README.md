@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 65 — ROC Curve & Performance Trade-off Analysis**
+- Implemented ROC curve analysis to evaluate model performance across all classification thresholds
+- Computed true positive rate (sensitivity) and false positive rate for threshold-independent assessment
+- Calculated Area Under the Curve (AUC) as a summary metric of model performance
+- Enabled data-driven selection of optimal decision thresholds based on performance trade-offs
+- Strengthened pipeline with comprehensive evaluation beyond single-threshold metrics
+
 **Day 64 — Decision Threshold Tuning (Sensitivity–Specificity Trade-off)**
 - Implemented adjustable decision thresholds to control classification outcomes
 - Evaluated prediction behavior across multiple probability cutoffs
@@ -681,7 +688,8 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 61 – Model interpretability
 - [X] Day 62 – Local explainability (SHAP)
 - [X] Day 63 – Model confidence & uncertainty
-- [X] Day 64 – Decision threshold tuning 
+- [X] Day 64 – Decision threshold tuning
+- [X] Day 65 – ROC curve & performance analysis
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
