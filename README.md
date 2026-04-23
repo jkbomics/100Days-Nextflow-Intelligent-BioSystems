@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 66 — Precision–Recall Analysis (Imbalanced Data Evaluation)**
+- Implemented precision–recall curve to evaluate model performance under class imbalance
+- Computed precision, recall, and PR-AUC for threshold-independent assessment of positive class detection
+- Highlighted limitations of ROC analysis in imbalanced biological datasets
+- Enabled more realistic evaluation focused on detecting true positive signals
+- Strengthened pipeline with metrics suitable for rare event and diagnostic use cases
+
 **Day 65 — ROC Curve & Performance Trade-off Analysis**
 - Implemented ROC curve analysis to evaluate model performance across all classification thresholds
 - Computed true positive rate (sensitivity) and false positive rate for threshold-independent assessment
@@ -690,6 +697,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 63 – Model confidence & uncertainty
 - [X] Day 64 – Decision threshold tuning
 - [X] Day 65 – ROC curve & performance analysis
+- [X] Day 66 – Precision–recall analysis
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
