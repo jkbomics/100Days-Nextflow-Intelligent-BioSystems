@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 67 — Handling Class Imbalance (Balanced Learning Strategies)**
+- Implemented class weighting to address imbalance between control and disease samples
+- Simulated imbalanced dataset to evaluate model bias toward majority class
+- Compared baseline and weighted models to assess improvement in minority class detection
+- Reduced bias and improved sensitivity toward rare biological signals
+- Strengthened pipeline for realistic diagnostic scenarios involving imbalanced data
+
 **Day 66 — Precision–Recall Analysis (Imbalanced Data Evaluation)**
 - Implemented precision–recall curve to evaluate model performance under class imbalance
 - Computed precision, recall, and PR-AUC for threshold-independent assessment of positive class detection
@@ -698,6 +705,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 64 – Decision threshold tuning
 - [X] Day 65 – ROC curve & performance analysis
 - [X] Day 66 – Precision–recall analysis
+- [ ] Day 67 – Handling class imbalance 
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
