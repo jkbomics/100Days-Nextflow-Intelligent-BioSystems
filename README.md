@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 68 — Synthetic Data Generation (SMOTE for Minority Class Enhancement)**
+- Implemented SMOTE (Synthetic Minority Over-sampling Technique) to generate synthetic samples for underrepresented class
+- Enhanced minority class representation to improve model learning under imbalanced conditions
+- Reduced bias caused by limited disease samples through structured data augmentation
+- Compared model performance after applying synthetic data generation
+- Strengthened pipeline with data-level imbalance handling alongside model-level strategies
+
 **Day 67 — Handling Class Imbalance (Balanced Learning Strategies)**
 - Implemented class weighting to address imbalance between control and disease samples
 - Simulated imbalanced dataset to evaluate model bias toward majority class
@@ -705,7 +712,8 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 64 – Decision threshold tuning
 - [X] Day 65 – ROC curve & performance analysis
 - [X] Day 66 – Precision–recall analysis
-- [ ] Day 67 – Handling class imbalance 
+- [X] Day 67 – Handling class imbalance
+- [X] Day 68 – Synthetic data generation (SMOTE)
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
