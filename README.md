@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 69 — End-to-End Intelligent Pipeline (Signal-to-Decision Integration)**
+- Integrated feature selection, prediction, and decision-making into a unified Nextflow pipeline
+- Simulated full workflow from gene expression input to final classification output
+- Connected modular components into a cohesive signal processing and AI-driven system
+- Enabled automated flow from data ingestion → model inference → decision output
+- Transitioned from isolated analytical steps to system-level intelligent pipeline design
+
 **Day 68 — Synthetic Data Generation (SMOTE for Minority Class Enhancement)**
 - Implemented SMOTE (Synthetic Minority Over-sampling Technique) to generate synthetic samples for underrepresented class
 - Enhanced minority class representation to improve model learning under imbalanced conditions
@@ -714,6 +721,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 66 – Precision–recall analysis
 - [X] Day 67 – Handling class imbalance
 - [X] Day 68 – Synthetic data generation (SMOTE)
+- [X] Day 69 – End-to-end pipeline integration
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
