@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 70 — Real-World Simulation (Noise, Drift & Uncertainty Integration)**
+- Simulated realistic transcriptomic conditions by incorporating noise, baseline drift, and signal variability
+- Modeled gene expression as a combination of true signal and multiple sources of variation
+- Evaluated model behavior under non-ideal, real-world-like data conditions
+- Introduced uncertainty-aware interpretation of predictions in complex signal environments
+- Strengthened pipeline robustness by moving beyond clean, idealized datasets
+
 **Day 69 — End-to-End Intelligent Pipeline (Signal-to-Decision Integration)**
 - Integrated feature selection, prediction, and decision-making into a unified Nextflow pipeline
 - Simulated full workflow from gene expression input to final classification output
@@ -722,6 +729,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 67 – Handling class imbalance
 - [X] Day 68 – Synthetic data generation (SMOTE)
 - [X] Day 69 – End-to-end pipeline integration
+- [X] Day 70 – Real-world simulation (noise, drift, uncertainty)
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
