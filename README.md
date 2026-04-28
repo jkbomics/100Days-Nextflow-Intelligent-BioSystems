@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 71 — Streaming Transcriptomic Signal Modeling (Time-Series Simulation)**
+- Simulated time-series gene expression to represent dynamic biological signals
+- Incorporated temporal drift, stochastic noise, and transient spikes to mimic real-world behavior
+- Modeled gene expression as a continuous, evolving signal rather than static snapshots
+- Generated time-resolved transcriptomic data for downstream real-time analysis
+- Extended pipeline from static analysis to time-aware intelligent sensing systems
+
 **Day 70 — Real-World Simulation (Noise, Drift & Uncertainty Integration)**
 - Simulated realistic transcriptomic conditions by incorporating noise, baseline drift, and signal variability
 - Modeled gene expression as a combination of true signal and multiple sources of variation
@@ -730,6 +737,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 68 – Synthetic data generation (SMOTE)
 - [X] Day 69 – End-to-end pipeline integration
 - [X] Day 70 – Real-world simulation (noise, drift, uncertainty)
+- [X] Day 71 – Streaming transcriptomic signal modeling
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
