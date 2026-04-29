@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 72 — Real-Time Anomaly Detection (Streaming Signal Monitoring)**
+- Implemented rolling window–based anomaly detection on time-series gene expression data
+- Detected sudden deviations and transient spikes using dynamic baseline (mean and standard deviation)
+- Identified context-dependent anomalies in continuously evolving transcriptomic signals
+- Enabled real-time monitoring capability instead of post hoc analysis
+- Advanced pipeline from time-series simulation to real-time event detection in biological signals
+
 **Day 71 — Streaming Transcriptomic Signal Modeling (Time-Series Simulation)**
 - Simulated time-series gene expression to represent dynamic biological signals
 - Incorporated temporal drift, stochastic noise, and transient spikes to mimic real-world behavior
@@ -738,6 +745,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 69 – End-to-end pipeline integration
 - [X] Day 70 – Real-world simulation (noise, drift, uncertainty)
 - [X] Day 71 – Streaming transcriptomic signal modeling
+- [X] Day 72 – Real-time anomaly detection
 - [ ] ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
