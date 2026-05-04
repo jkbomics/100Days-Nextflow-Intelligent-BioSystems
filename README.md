@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 77 — Anomaly Detection in Simulated System Signals**
+- Implemented rolling window–based anomaly detection on simulated silicon-like signal data
+- Identified deviations using local mean and standard deviation instead of absolute thresholds
+- Explored detection of irregular signal behavior relative to recent history
+- Observed transient spikes and drops as potential failure-like events in component signals
+- Continued experimental exploration of signal monitoring across non-biological systems
+
 **Day 76 — Cross-Domain Signal Modeling (Biology-Inspired Silicon Simulation)**
 - Extended transcriptomic signal modeling concepts to simulate a silicon-like system using computational analogies
 - Modeled component-level signals incorporating noise, drift, and failure-like perturbations
@@ -781,6 +788,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 ### Phase4 - Silicon Lifecycle & On-Chip Learning Integration
 
 - [X] Day 76 – Cross-domain signal modeling
+- [X] Day 77 – Anomaly detection in simulated signals
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
