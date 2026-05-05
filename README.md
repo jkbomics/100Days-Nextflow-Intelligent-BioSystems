@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 78 — Event-Driven Decision System (Anomaly-Based Response Logic)**
+- Implemented rule-based decision logic to translate detected anomalies into system responses
+- Classified signal states into stable, warning, and alert conditions based on deviation levels
+- Explored threshold-based triggering mechanisms for different anomaly intensities
+- Extended pipeline from anomaly detection to action-oriented system behavior
+- Continued experimentation with response sensitivity and decision boundaries
+
 **Day 77 — Anomaly Detection in Simulated System Signals**
 - Implemented rolling window–based anomaly detection on simulated silicon-like signal data
 - Identified deviations using local mean and standard deviation instead of absolute thresholds
@@ -789,6 +796,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 
 - [X] Day 76 – Cross-domain signal modeling
 - [X] Day 77 – Anomaly detection in simulated signals
+- [X] Day 78 – Event-driven decision system
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
