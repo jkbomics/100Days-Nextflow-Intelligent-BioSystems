@@ -1,0 +1,10 @@
+Time	Component	Signal	RollingMean	RollingStd	Deviation	Anomaly
+0	Core1	100	100	0	0	False
+1	Core1	101	100.5	0.7	0.5	False
+2	Core1	102	101	1.0	1.0	False
+3	Core1	130	111	12.0	19.0	True
+4	Core1	105	112	10.0	7.0	False
+0	Core2	105	105	0	0	False
+1	Core2	106	105.5	0.7	0.5	False
+2	Core2	108	106	1.5	2.0	True
+3	Core2	140	120	15.0	20.0	True
