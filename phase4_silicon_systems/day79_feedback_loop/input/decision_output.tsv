@@ -1,0 +1,12 @@
+Time	Component	Signal	Deviation	Anomaly	Decision
+0	Core1	100	0	False	STABLE
+1	Core1	101	1	False	STABLE
+2	Core1	102	2	False	STABLE
+3	Core1	130	20	True	ALERT
+4	Core1	110	8	True	WARNING
+5	Core1	105	3	False	STABLE
+0	Core2	105	0	False	STABLE
+1	Core2	107	2	False	STABLE
+2	Core2	140	25	True	ALERT
+3	Core2	115	10	True	WARNING
+4	Core2	108	3	False	STABLE
