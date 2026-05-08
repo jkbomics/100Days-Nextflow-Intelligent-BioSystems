@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 81 — Resource-Aware Adaptive System (Stress Compensation & Load Balancing)**
+- Implemented dynamic resource adaptation based on overall system stress conditions
+- Simulated compensation behavior under stable, unstable, and critical system states
+- Explored shared resource pool adjustment as a mechanism for stress redistribution
+- Modeled adaptive balancing behavior inspired by biological compensation systems
+- Extended pipeline from coordinated monitoring to active stabilization and recovery mechanisms
+
 **Day 80 — Multi-Component System Coordination**
 - Implemented system-level coordination logic across multiple simulated components
 - Aggregated alert and warning states to evaluate overall system stability
@@ -813,6 +820,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 78 – Event-driven decision system
 - [X] Day 79 – Feedback loop & adaptive control  
 - [X] Day 80 – Multi-component system coordination
+- [X] Day 81 – Resource-aware adaptive system
 - [ ]   
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
