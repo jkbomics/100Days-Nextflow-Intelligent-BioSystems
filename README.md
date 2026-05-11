@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 84 — Long-Term Lifecycle Simulation (Aging & Recovery Cycles)**
+- Implemented cumulative aging and degradation modeling across repeated recovery cycles
+- Simulated long-term changes in effective system capacity despite temporary recovery events
+- Explored interactions between recovery efficiency, stress accumulation, and progressive decline
+- Modeled lifecycle-oriented behavior inspired by biological aging and chronic stress adaptation
+- Extended pipeline from short-term recovery dynamics to continuous lifecycle simulation
+
 **Day 83 — Self-Healing & Recovery Simulation**
 - Implemented automated recovery behavior triggered by predicted instability levels
 - Simulated adaptive recovery actions under moderate and high-risk system conditions
@@ -836,7 +843,8 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 80 – Multi-component system coordination
 - [X] Day 81 – Resource-aware adaptive system
 - [X] Day 82 – Predictive failure modeling
-- [X] Day 83 – Self-healing & recovery simulation 
+- [X] Day 83 – Self-healing & recovery simulation
+- [X] Day 84 – Long-term lifecycle simulation
 - [ ]   
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
