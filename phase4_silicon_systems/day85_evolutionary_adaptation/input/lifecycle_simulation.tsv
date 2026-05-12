@@ -1,0 +1,9 @@
+Time	RecoveredPool	AgingFactor	EffectiveCapacity	LifecycleState
+0	100	2	98	HEALTHY
+1	95	4	91	HEALTHY
+2	84	6	78	HEALTHY
+3	78	8	70	AGING
+4	70	10	60	AGING
+5	58	12	46	DEGRADING
+6	65	14	51	AGING
+7	80	16	64	AGING
