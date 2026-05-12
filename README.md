@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 85 — Evolutionary Adaptation Simulation**
+- Implemented adaptive strategy adjustment across repeated stress and degradation cycles
+- Simulated evolving recovery behavior using dynamic adaptation scoring
+- Explored how long-term stress history influences system fitness and resilience
+- Modeled evolutionary-style optimization inspired by biological adaptation processes
+- Extended pipeline from static recovery mechanisms to evolving adaptive behavior
+
 **Day 84 — Long-Term Lifecycle Simulation (Aging & Recovery Cycles)**
 - Implemented cumulative aging and degradation modeling across repeated recovery cycles
 - Simulated long-term changes in effective system capacity despite temporary recovery events
@@ -845,7 +852,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 82 – Predictive failure modeling
 - [X] Day 83 – Self-healing & recovery simulation
 - [X] Day 84 – Long-term lifecycle simulation
-- [ ]   
+- [X] Day 85 – Evolutionary adaptation simulation   
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
