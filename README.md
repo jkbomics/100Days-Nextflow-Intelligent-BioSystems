@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 86 — Population-Level Evolutionary Simulation**
+- Implemented simulation of multiple adaptive systems evolving under shared stress conditions
+- Introduced variation factors to generate diverse adaptive and resilience trajectories across systems
+- Explored how small differences in adaptive behavior influence long-term fitness outcomes
+- Modeled population-level variability inspired by evolutionary diversity and selection concepts
+- Extended pipeline from single-system adaptation to distributed evolutionary dynamics across system populations
+
 **Day 85 — Evolutionary Adaptation Simulation**
 - Implemented adaptive strategy adjustment across repeated stress and degradation cycles
 - Simulated evolving recovery behavior using dynamic adaptation scoring
@@ -852,7 +859,8 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 82 – Predictive failure modeling
 - [X] Day 83 – Self-healing & recovery simulation
 - [X] Day 84 – Long-term lifecycle simulation
-- [X] Day 85 – Evolutionary adaptation simulation   
+- [X] Day 85 – Evolutionary adaptation simulation
+- [X] Day 86 – Population-level evolutionary simulation
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
