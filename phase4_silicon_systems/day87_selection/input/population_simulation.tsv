@@ -1,0 +1,10 @@
+System	Time	VariationFactor	PopulationCapacity	PopulationFitness
+SysA	0	1.02	95.0	HIGH
+SysA	1	1.02	82.0	HIGH
+SysA	2	1.02	70.0	MODERATE
+SysB	0	0.91	85.0	MODERATE
+SysB	1	0.91	60.0	MODERATE
+SysB	2	0.91	45.0	LOW
+SysC	0	1.15	105.0	HIGH
+SysC	1	1.15	96.0	HIGH
+SysC	2	1.15	88.0	HIGH
