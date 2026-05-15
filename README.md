@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 87 — Competitive Selection Simulation**
+- Implemented survival scoring across adaptive system populations under shared stress conditions
+- Simulated competitive selection dynamics based on long-term fitness and stability behavior
+- Explored how adaptive efficiency influences persistence, dominance, or collapse over repeated cycles
+- Modeled selection pressure and resilience competition inspired by evolutionary survival mechanisms
+- Extended pipeline from population diversity modeling to competitive adaptive selection dynamics
+
 **Day 86 — Population-Level Evolutionary Simulation**
 - Implemented simulation of multiple adaptive systems evolving under shared stress conditions
 - Introduced variation factors to generate diverse adaptive and resilience trajectories across systems
@@ -861,6 +868,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 84 – Long-term lifecycle simulation
 - [X] Day 85 – Evolutionary adaptation simulation
 - [X] Day 86 – Population-level evolutionary simulation
+- [X] Day 87 – Competitive selection simulatio
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
