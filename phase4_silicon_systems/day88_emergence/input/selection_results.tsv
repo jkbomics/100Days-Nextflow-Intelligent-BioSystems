@@ -1,0 +1,6 @@
+System	SurvivalScore	SelectionStatus
+SysA	8	DOMINANT
+SysB	1	COLLAPSING
+SysC	10	DOMINANT
+SysD	3	SURVIVING
+SysE	-1	COLLAPSING
