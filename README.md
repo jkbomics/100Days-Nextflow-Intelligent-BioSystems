@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 90 — Decentralized Decision-Making Simulation**
+- Implemented autonomous local decision behavior across distributed adaptive system nodes
+- Simulated node-level responses based on shared network conditions without centralized control
+- Explored how local adaptive decisions influence broader network behavior and coordination
+- Modeled decentralized system dynamics inspired by distributed biological and computational regulation
+- Extended pipeline from communication-driven coordination to autonomous distributed decision architectures
+
 **Day 89 — Distributed Intelligence Simulation**
 - Implemented inter-system communication and coordination across adaptive system populations
 - Simulated communication-driven state transitions based on collective network conditions
@@ -885,6 +892,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 87 – Competitive selection simulatio
 - [X] Day 88 – Emergent behavior simulation
 - [X] Day 89 – Distributed intelligence simulation
+- [X] Day 90 – Decentralized decision-making simulation 
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
