@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 91 — Network Resilience Simulation**
+- Implemented fault-tolerance and resilience analysis across distributed adaptive system nodes
+- Simulated probabilistic node failures under varying local stress-response conditions
+- Explored how distributed systems maintain functionality despite partial node instability
+- Modeled resilient network behavior inspired by biological buffering and distributed recovery concepts
+- Extended pipeline from decentralized adaptive intelligence to fault-tolerant network resilience dynamics
+
 **Day 90 — Decentralized Decision-Making Simulation**
 - Implemented autonomous local decision behavior across distributed adaptive system nodes
 - Simulated node-level responses based on shared network conditions without centralized control
@@ -892,7 +899,8 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 87 – Competitive selection simulatio
 - [X] Day 88 – Emergent behavior simulation
 - [X] Day 89 – Distributed intelligence simulation
-- [X] Day 90 – Decentralized decision-making simulation 
+- [X] Day 90 – Decentralized decision-making simulation
+- [X] Day 91 – Network resilience simulation
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
