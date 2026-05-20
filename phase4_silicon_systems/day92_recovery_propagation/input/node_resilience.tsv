@@ -1,0 +1,5 @@
+Node	Decision	FailureProbability	NodeStatus
+NodeA	REDUCE_LOAD	0.2	ACTIVE
+NodeB	REDUCE_LOAD	0.2	ACTIVE
+NodeC	MONITOR	0.1	FAILED
+NodeD	SELF_PROTECT	0.6	FAILED
