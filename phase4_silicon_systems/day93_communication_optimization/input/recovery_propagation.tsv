@@ -1,0 +1,5 @@
+Node	OriginalStatus	RecoverySupport	UpdatedStatus
+NodeA	ACTIVE	0.30	STABLE
+NodeB	ACTIVE	0.30	STABLE
+NodeC	FAILED	0.30	RECOVERED
+NodeD	FAILED	0.30	RECOVERED
