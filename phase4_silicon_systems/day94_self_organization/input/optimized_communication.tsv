@@ -1,0 +1,5 @@
+Node	UpdatedStatus	CommunicationMode	CommunicationLoadFactor
+NodeA	STABLE	NORMAL	1.0
+NodeB	STABLE	NORMAL	1.0
+NodeC	RECOVERED	PRIORITY_ONLY	0.5
+NodeD	RECOVERED	PRIORITY_ONLY	0.5
