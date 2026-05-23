@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 95 — Hierarchical Intelligence Simulation**
+- Implemented layered adaptive control structures across distributed self-organizing networks
+- Simulated local, regional, and global coordination layers within adaptive system architecture
+- Explored how hierarchical organization influences distributed decision propagation and system stability
+- Modeled multi-scale adaptive intelligence inspired by biological regulatory hierarchies and orchestration systems
+- Extended pipeline from self-organizing network behavior to layered hierarchical intelligence dynamics
+
 **Day 94 — Self-Organizing Network Simulation**
 - Implemented adaptive network restructuring under distributed stress conditions
 - Simulated dynamic node-role reassignment based on recovery and communication behavior
@@ -925,6 +932,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 92 – Recovery propagation simulation
 - [X] Day 93 – Adaptive communication optimization
 - [X] Day 94 – Self-organizing network simulation
+- [X] Day 95 – Hierarchical intelligence simulation
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
