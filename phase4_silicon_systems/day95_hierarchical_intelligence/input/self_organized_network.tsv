@@ -1,0 +1,5 @@
+Node	NetworkRole	ConnectivityLevel
+NodeA	CORE_NODE	HIGH
+NodeB	CORE_NODE	HIGH
+NodeC	SUPPORT_NODE	MODERATE
+NodeD	ISOLATED_NODE	LOW
