@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 97 — Collective Intelligence Simulation**
+- Implemented network-level adaptive learning and collective optimization across distributed intelligent systems
+- Simulated shared adaptation behavior using collective efficiency alignment across nodes
+- Explored how distributed systems improve through cooperative learning rather than isolated optimization
+- Modeled collective adaptive dynamics inspired by swarm intelligence and population-level learning concepts
+- Extended pipeline from meta-adaptive strategy optimization to collective network intelligence behavior
+
 **Day 96 — Meta-Adaptation Simulation**
 - Implemented adaptive strategy optimization across hierarchical distributed intelligence layers
 - Simulated systems modifying their own adaptation behavior based on coordination role and efficiency
@@ -941,6 +948,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 94 – Self-organizing network simulation
 - [X] Day 95 – Hierarchical intelligence simulation
 - [X] Day 96 – Meta-adaptation simulation
+- [X] Day 97 – Collective intelligence simulation
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
