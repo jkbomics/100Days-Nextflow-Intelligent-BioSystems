@@ -9,6 +9,13 @@ The goal is to engineer workflow architectures that integrate bioinformatics, se
 
 ## Latest Progress 
 
+**Day 98 — Autonomous Ecosystem Simulation**
+- Implemented ecosystem-scale adaptive interaction and environmental feedback dynamics across distributed intelligent systems
+- Simulated continuous interaction between node-level adaptation and ecosystem-wide stability conditions
+- Explored how environmental pressure influences adaptive response and long-term system balance
+- Modeled autonomous ecosystem behavior inspired by ecological adaptation and co-evolutionary dynamics
+- Extended pipeline from collective network intelligence to self-regulating adaptive ecosystem simulation
+
 **Day 97 — Collective Intelligence Simulation**
 - Implemented network-level adaptive learning and collective optimization across distributed intelligent systems
 - Simulated shared adaptation behavior using collective efficiency alignment across nodes
@@ -949,6 +956,7 @@ nextflow run phase1_foundations/day02_channels/main.nf
 - [X] Day 95 – Hierarchical intelligence simulation
 - [X] Day 96 – Meta-adaptation simulation
 - [X] Day 97 – Collective intelligence simulation
+- [X] Day 98 – Autonomous ecosystem simulation
 - [ ]  ...  
 - [ ] Day 100 – Adaptive silicon-sensing workflow  
 
