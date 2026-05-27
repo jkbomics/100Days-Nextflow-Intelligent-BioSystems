@@ -1,0 +1,5 @@
+Node	AdaptiveResponse	EnvironmentalPressure	EcosystemRole
+NodeA	1.20	-0.05	STABILIZING_AGENT
+NodeB	1.18	-0.03	STABILIZING_AGENT
+NodeC	1.00	0.02	BALANCED_AGENT
+NodeD	0.82	0.10	VULNERABLE_AGENT
