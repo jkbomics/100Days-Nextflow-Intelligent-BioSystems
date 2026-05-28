@@ -1,0 +1,5 @@
+Node	EquilibriumFactor	SustainmentState	EcosystemHealth
+NodeA	1.25	SELF_SUSTAINING	1.05
+NodeB	1.20	SELF_SUSTAINING	1.05
+NodeC	1.00	STABLE_ADAPTIVE	1.05
+NodeD	0.88	FRAGILE	1.05
